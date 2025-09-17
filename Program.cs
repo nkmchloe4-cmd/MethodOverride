@@ -9,7 +9,7 @@
             Console.WriteLine(FormatName("Mary", "Jacksson", true));
         }
 
-        static string FormatName(string firstName, string lastName)
+       static string FormatName(string firstName, string lastName)
         {
             return $"{firstName} {lastName}";
         }
