@@ -15,16 +15,16 @@
             return $"{firstName} {lastName}";
         }
    
-    static string FormatName(string firstName, string middle, string lastName)
-        {
+      static string FormatName(string firstName, string middle, string lastName)
+      {
             return $"{firstName} {middle} {lastName}";
-        }    
+      }    
    
-    static string FormatName(string firstName, string lastName, bool uppercase)
-        {
+      static string FormatName(string firstName, string lastName, bool uppercase)
+      {
             var full = $"{firstName} {lastName}";
             return uppercase ? full.ToUpper() : full ;
-        }    
+      }    
     
     }
 }
