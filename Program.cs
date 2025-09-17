@@ -7,7 +7,6 @@
             Console.WriteLine(FormatName("Mary", "Jacksson"));
             Console.WriteLine(FormatName("Mary", "Jane", "Jacksson"));
             Console.WriteLine(FormatName("Mary", "Jacksson", true));
-
         }
 
         static string FormatName(string firstName, string lastName)
